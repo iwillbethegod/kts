@@ -1,9 +1,3 @@
-const express=require('express')
-const app=express()
-const port=3000
-app.get('/',(req, res)=>res.send ('i am kts'))
-app.listen(port, ()=>console.log(`LISTENINGto http://localhost:${port}`));
-
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
